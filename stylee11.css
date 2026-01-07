@@ -1,0 +1,74 @@
+body {
+    text-align: center; /* Zorgt ervoor dat alle tekst in het midden staat*/
+    margin: 0; /* Geen extra ruimte rondom het element */
+}
+
+/* Stijlt de hoofdtitel */
+h1 {
+    margin-top: 20px; /* Ruimte boven */
+    padding: 10px; /* Zorgt voor 10px ruimte binnen het element */
+    color: white;
+    font-size: 60px;
+}
+
+/* Stijlt de header */
+header {
+    background-color: #9CAF88;
+    height: 200px;
+    display: flex; /* Zet de inhoud netjes naast of onder elkaar */
+    justify-content: center; /* Zet de inhoud in het midden (horizontaal) */
+    align-items: center; /* Zet de inhoud in het midden (verticaal) */
+}
+
+/* Stijlt de afbeeldingen in het article */
+article img {
+    width: 200px;
+    margin: 20px;
+    height: 200px;
+    float: right; /* Duwt het element naar rechts, zodat andere inhoud er links van kan staan */
+}
+
+/* Stijlt het article */
+article {
+    background-color: #D3B8AE;
+    color: white;
+    padding: 70px; /* Zorgt voor 70px ruimte binnen het element */
+    text-align: left;
+}
+
+/* Stijlt de navigatiebalk */
+nav {
+    background-image: url('plaatje.jpg');
+    text-align: center;
+    height: 60px;
+    display: flex; /* Zet de inhoud netjes naast of onder elkaar */
+    justify-content: space-around; /* Verdeelt de ruimte tussen de elementen */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px; /* Zorgt voor 10px ruimte binnen het element */
+    align-items: center; /* Zet de inhoud in het midden (verticaal) */
+}
+
+/* Stijlt de links in de navigatiebalk */
+nav a {
+    font-size: 20px; /* Maakt de tekst groter */
+    font-weight: bold; /* Maakt de tekst dikker */
+    color: #754C29;
+    text-decoration: underline;
+    text-decoration-color: #754C29;
+}
+/* Stijlt de footer */
+footer {
+    background-color: #9CAF88;
+    bottom: 0;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px; /* Maakt de tekst groter */
+    font-weight: bold; /* Maakt de tekst dikker */
+}
+
+/* Stijlt de links in de footer */
+footer a {
+    color: white;
+}
