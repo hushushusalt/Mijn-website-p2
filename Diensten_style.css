@@ -8,7 +8,7 @@ h1 {
   font-size: 36px;
   font-weight: bold; /* Maakt de tekst vetgedrukt */
   color: white;
-  margin: 40px; /* Voegt een ruimte van 40 pixels rondom het h1 */
+  margin: 30px; /* Voegt een ruimte van 40 pixels rondom het h1 */
 }
 
 header {
