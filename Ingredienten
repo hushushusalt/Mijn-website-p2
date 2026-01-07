@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+   <head>
+      <meta charset="UTF-8">
+      <title>Ingrediënten in Skin Care</title>
+      <link rel="stylesheet" type="text/css" href="Diensten_style.css">
+   </head>
+   <body>
+      <header>
+         <h1><i>Ingrediënten in Skin Care: Wat zit er in jouw producten?</i></h1>
+      </header>
+      <article>
+         <div class="article-content">
+			<!-- Inhoud van het artikel -->
+            <h2>Sommige ingrediënten in huidverzorgingsproducten kunnen irritaties of allergieën veroorzaken. Hier zijn een paar veelvoorkomende ingrediënten waar je op kunt letten!</h2>
+            <table border="1">
+			   <!-- Tabel met ingrediënten en hun effecten -->
+               <tr>
+                  <th>Ingrediënt</th>
+                  <th>Effect</th>
+               </tr>
+               <tr>
+                  <td>Alcohol</td>
+                  <td>Kan de huid uitdrogen</td>
+               </tr>
+               <tr>
+                  <td>Parfum</td>
+                  <td>Kan huidirritatie veroorzaken</td>
+               </tr>
+               <tr>
+                  <td>Sulfaten</td>
+                  <td>Kan de huid uitdrogen en irriteren</td>
+               </tr>
+            </table>
+            <p>💡 Alcohol wordt vaak toegevoegd om de textuur te verbeteren, maar kan de huid uitdrogen. Kies voor alcoholvrije producten als je een gevoelige huid hebt.
+               <br>💡 Parfum kan je huid irriteren, vooral bij gevoelige huidtypes. Kies voor parfumvrije verzorgingsproducten.
+            </p>
+            <p>✔ Gebruik producten die dermatologisch getest zijn!
+               <br>✔ Kies voor natuurlijke of hypoallergene huidverzorgingsproducten.
+               <br>✔ Test nieuwe producten eerst op een klein stukje huid om irritatie te voorkomen.
+            </p>
+            <p>💬 Wil je weten welke producten geschikt zijn voor jouw huidtype? Lees meer op onze pagina over <a href="Huidtypes.html"><b>huidtypes!</b></a>
+               <br>📩 Heb je vragen over ingrediënten in huidverzorging? Neem contact met ons op via <a href="mailto:koou@stanislascollege.net"><b>Mail</b></a>
+            </p>
+         </div>
+         <div class="article-images">
+			<!-- Afbeeldingen gerelateerd aan het artikel -->
+            <img src="SCING_1.jpg" alt="Afbeelding 1" width="150" height="200">
+            <img src="SCING_2.jpg" alt="Afbeelding 2" width="150" height="200">
+            <img src="SCING_3.jpg" alt="Afbeelding 3" width="150" height="200">
+            <img src="SCING_4.jpg" alt="Afbeelding 4" width="150" height="200">
+         </div>
+      </article>
+      <nav>
+         <div class="sidenav">
+			<!-- Navigatiemenu -->
+            <a class="active" href="WebsiteBestand.html">Home</a>
+            <a href="Huidtypes.html">Skin prep</a>
+            <a href="Dagelijkse_Routine.html">Dagelijkse Routine</a>
+         </div>
+      </nav>
+      <footer>
+         <p>Contact: <a href="mailto:136125@stanislascollege.net">Mail</a> | <a href="tel:123456789">Telefoonnummer: 123456789</a></p> 
+      </footer>
+   </body>
+</html>
