@@ -1,0 +1,97 @@
+body {
+  text-align: center; /* De tekst binnen het body-element wordt in het midden gezet */
+  margin: 0; /* Verwijdert alle ruimtes rondom het body */
+}
+
+h1 {
+  text-align: center; /* De tekst wordt in het midden gezet */
+  font-size: 36px;
+  font-weight: bold; /* Maakt de tekst vetgedrukt */
+  color: white;
+  margin: 40px; /* Voegt een ruimte van 40 pixels rondom het h1 */
+}
+
+header {
+  background-color: #C2B1A1;
+  height: 200px;
+  display: flex; /* Zet de inhoud netjes naast of onder elkaar */
+  justify-content: center; /* De inhoud wordt in het midden, horizontaal gezet binnen het header */
+  align-items: center; /* De inhoud wordt in het midden, verticaal gezet binnen het header */
+}
+
+article {
+  background-color: #9E7F6B;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: left; /* Lijnt de tekst links uit binnen de article */
+  position: relative; /* Wordt op de normale positie verplaats */
+  font-size: 20px;
+  display: flex; /* Zet de inhoud netjes naast of onder elkaar */
+  justify-content: space-between; /* Verdeelt de ruimte tussen de elementen */
+}
+
+table {
+  border: 1px solid white; /* Stelt een witte, 1 pixel brede, ononderbroken rand in voor de tabel */
+}
+
+article img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.article-content {
+  flex: 1; /* Zorgt ervoor dat de tekst de beschikbare ruimte inneemt */
+}
+
+a {
+  color: white; /* Zorgt ervoor dat alle links wit worden */
+}
+
+.article-images {
+  display: grid; /* Past grid-layout toe op het .article-images-element */
+  grid-template-columns: repeat(2, 1fr); /* Maakt twee kolommen met gelijke breedte */
+  grid-template-rows: repeat(2, auto); /* Maakt twee rijen met automatische hoogte */
+  gap: 10px; /* Voegt een ruimte van 10 pixels toe tussen de afbeeldingen */
+  flex-wrap: wrap; /* Laat de afbeeldingen naar de volgende regel verplaatsen als dat nodig is */
+  justify-content: flex-end; /* Lijnt de afbeeldingen uit aan de rechterkant */
+}
+
+nav {
+  background-image: url('plaatje.jpg');
+  width: 200px;
+  position: fixed; /* Wordt op een bepaalde plek vastgehouden */
+  top: 0;
+  left: 0;
+  padding-top: 20px; /* Voegt boven in de navigatie-balk 20px ruimte */
+  display: flex; /* Zet de inhoud netjes naast of onder elkaar */
+  height: 180px;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: bold; /* Maakt de tekst vetgedrukt */
+  color: #754C29;
+  text-decoration: none;
+  display: block; /* Zorgt ervoor dat de links als blokken worden weergegeven */
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background-color: #C2B1A1;
+  position: fixed; /* wordt op een bepaalde plek vastgehouden */
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+}
+
