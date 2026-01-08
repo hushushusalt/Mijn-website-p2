@@ -13,7 +13,7 @@ h1 {
 
 /* Stijlt de header */
 header {
-    background-color: #8B7E74;
+    background-color: #C48AA1;
     height: 200px;
     display: flex; /* Zet de inhoud netjes naast of onder elkaar */
     justify-content: center; /* Zet de inhoud in het midden (horizontaal) */
@@ -59,7 +59,7 @@ nav a {
 }
 /* Stijlt de footer */
 footer {
-    background-color: #8B7E74;
+    background-color: #C48AA1;
     bottom: 0;
     margin-top: 20px;
     padding: 20px;
